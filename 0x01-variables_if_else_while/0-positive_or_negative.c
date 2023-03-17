@@ -4,10 +4,11 @@
 
 #include <stdio.h>
 
-
-/* More headers goes there */
-
-/* betty styls doc for function main goes there */
+/**
+ * maiin -Prints if number is positive, zero or negative
+ * Return: always (Success)
+ *
+ */
 int main(void)
 {
 	int n;
@@ -27,7 +28,6 @@ int main(void)
 	{
 	printf("%d is negative\n", n);
 	}
-	/*your code goes there */
 	return (0);
 
 }
